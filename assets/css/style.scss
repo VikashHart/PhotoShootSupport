@@ -51,3 +51,27 @@ button {
   display: inline-block;
   text-align: center;
 }
+
+section .footer .credits {
+    font-size: 11px;
+    font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #696969;
+    margin-top: -10px;
+}
+
+@media (max-width: 720px) {
+  .footer .credits {
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      text-align: center;
+  }
+}
+
+.footer .credits.left {
+ float:left
+}
+.footer .credits.right {
+ float:right
+}

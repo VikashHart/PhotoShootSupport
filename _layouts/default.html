@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <div id="header">
+  <!-- <div id="header">
     <nav>
       <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
       {% if site.show_downloads %}
@@ -31,18 +31,15 @@
       <li class="title">DOWNLOADS</li>
       {% endif %}
     </nav>
-  </div><!-- end header -->
+  </div>end header -->
 
   <div class="wrapper">
 
     <section>
       <div id="title">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <h1>PhotoBooth Support</h1>
+        <p>Thanks for using PhotoBooth Snap & Share!</p>
         <hr>
-        <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{
-            site.github.owner_name }}</a></span>
-        <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
       </div>
 
       {{ content }}
@@ -54,11 +51,19 @@
           </div>
           <div class="form-group">
             <label for="body-input">How can we help?</label>
-            <textarea id="body-input" class="form-ctrl" placeholder="Please describe exactly what you’re trying to accomplish." name="body"
-              required="required"></textarea>
+            <textarea id="body-input" class="form-ctrl" placeholder="Please describe exactly what you’re trying to accomplish."
+              name="body" required="required"></textarea>
           </div>
           <button id="btn-send" type="submit">Submit</button>
         </form>
+      </div>
+      <br />
+      <div class="footer">
+        <p>© 2018 PhotoBooth</p>
+        <hr>
+        <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{
+            site.github.owner_name }}</a></span>
+        <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
       </div>
     </section>
 
