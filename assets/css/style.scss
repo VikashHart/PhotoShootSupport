@@ -29,6 +29,7 @@
 .form-group textarea {
   min-height: 200px;
   width: 100%;
+  resize: vertical;
 }
 
 .form-group .form-ctrl:focus {
